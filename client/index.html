@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./index.js" defer></script>
+    <title>Your next cat</title>
+  </head>
+
+  <body>
+    <h1>Welcome to the Cat App</h1>
+    <section>
+      <h2>Add a cat's breed</h2>
+      <form id="catForm" aria-label="Add a cat breed">
+        <label for="cat">Cat's breed</label>
+        <input type="text" id="cat" placeholder="e.g. siebirian" required>
+        <input type="submit" value="Add a cat breed">
+      </form>
+    </section>
+
+    <section>
+      <h2>Display what cat you will buy next time (random cat)! </h2>
+
+      <div id="cats"></div>
+      <!-- <ul id="cats">
+        <li>cat name <button>delete</button></li>
+      </ul> -->
+    </section>
+
+    <button id="display">Display a cat</button>
+  </body>
+
+</html>
